@@ -36,13 +36,22 @@ stream1.push(2)
 stream2.push(4)
 ```
 
-[travis-image]:https://img.shields.io/travis/GianlucaGuarini/erre.merge.svg?style=flat-square
-[travis-url]:https://travis-ci.org/GianlucaGuarini/erre.merge
+[travis-image]: https://img.shields.io/travis/GianlucaGuarini/erre.merge.svg?style=flat-square
+[travis-url]: https://travis-ci.org/GianlucaGuarini/erre.merge
+[license-image]: http://img.shields.io/badge/license-MIT-000000.svg?style=flat-square
+[license-url]: LICENSE
+[npm-version-image]: http://img.shields.io/npm/v/erre.merge.svg?style=flat-square
+[npm-downloads-image]: http://img.shields.io/npm/dm/erre.merge.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/erre.merge
 
-[license-image]:http://img.shields.io/badge/license-MIT-000000.svg?style=flat-square
-[license-url]:LICENSE
+## API
 
-[npm-version-image]:http://img.shields.io/npm/v/erre.merge.svg?style=flat-square
-[npm-downloads-image]:http://img.shields.io/npm/dm/erre.merge.svg?style=flat-square
-[npm-url]:https://npmjs.org/package/erre.merge
+### merge
 
+Create a single stream merging multiple erre streams
+
+**Parameters**
+
+-   `streams` **...Generator** [erre streams generators]((https://github.com/GianlucaGuarini/erre#stream))
+
+Returns **Generator** a [new erre stream generator]((https://github.com/GianlucaGuarini/erre#stream))

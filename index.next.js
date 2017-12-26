@@ -3,8 +3,8 @@ import curry from 'curri'
 
 /**
  * Create a single stream merging multiple erre streams
- * @param   {...Generator} streams - erre streams generators
- * @returns {Generator} - a new erre stream generator
+ * @param   {...Generator} streams - [erre streams generators]((https://github.com/GianlucaGuarini/erre#stream))
+ * @returns {Generator} - a [new erre stream generator]((https://github.com/GianlucaGuarini/erre#stream))
  */
 export default function merge(...streams) {
   const stream = erre()
