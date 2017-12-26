@@ -6,9 +6,12 @@ branches:
   only:
     - master
 
+install:
+  - npm i erre@2
+  - npm i
+
 before_script:
-  - npm i erre
-  - npm run build
+- npm run build
 
 notifications:
     email: false

@@ -1,5 +1,9 @@
 <img alt="erre.js" src="https://cdn.rawgit.com/GianlucaGuarini/erre/master/erre-logo.svg" width="50%"/>
 
+# erre.merge
+
+[erre](https://github.com/GianlucaGuarini/erre) plugin to merge the results multiple streams into one
+
 [![Build Status][travis-image]][travis-url]
 
 [![NPM version][npm-version-image]][npm-url]
