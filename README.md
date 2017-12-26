@@ -10,6 +10,12 @@
 [![NPM downloads][npm-downloads-image]][npm-url]
 [![MIT License][license-image]][license-url]
 
+## Installation
+
+```sh
+npm i erre.merge -S
+```
+
 ## Usage
 
 ```js
