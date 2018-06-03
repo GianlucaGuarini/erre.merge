@@ -1,6 +1,6 @@
 {
   "name": "erre.merge",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "erre plugin to merge the results multiple streams into one",
   "main": "erre.merge.js",
   "jsnext:main": "index.next.js",
