@@ -1,5 +1,5 @@
-import erre from 'erre'
 import curry from 'curri'
+import erre from 'erre'
 
 /**
  * Create a single stream merging multiple erre streams

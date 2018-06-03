@@ -25,7 +25,7 @@ describe('erre.merge', () => {
     const stream2 = erre(val => val * 2)
     const stream = erre.merge(stream1, stream2)
 
-    stream.on.value(([val1, val2]) => {
+    stream.on.value(() => {
       throw 'you should be never called'
     })
 

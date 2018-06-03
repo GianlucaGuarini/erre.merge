@@ -2,7 +2,6 @@ import resolve from 'rollup-plugin-node-resolve'
 
 export default {
   input: 'index.next.js',
-  name: 'merge',
   external: ['erre'],
   globals: {
     erre: 'erre'
@@ -14,6 +13,7 @@ export default {
   ],
   output: [
     {
+      name: 'merge',
       file: 'erre.merge.js',
       format: 'umd'
     }
