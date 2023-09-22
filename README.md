@@ -1,10 +1,10 @@
-<img alt="erre.js" src="https://cdn.rawgit.com/GianlucaGuarini/erre/master/erre-logo.svg" width="50%"/>
+<img alt="erre.js" src="https://cdn.rawgit.com/GianlucaGuarini/erre/main/erre-logo.svg" width="50%"/>
 
 # erre.merge
 
 [erre](https://github.com/GianlucaGuarini/erre) plugin to merge the results multiple streams into one
 
-[![Build Status][travis-image]][travis-url]
+[![Build Status][ci-image]][ci-url]
 
 [![NPM version][npm-version-image]][npm-url]
 [![NPM downloads][npm-downloads-image]][npm-url]
@@ -36,8 +36,8 @@ stream1.push(2)
 stream2.push(4)
 ```
 
-[travis-image]: https://img.shields.io/travis/GianlucaGuarini/erre.merge.svg?style=flat-square
-[travis-url]: https://travis-ci.org/GianlucaGuarini/erre.merge
+[ci-image]: https://img.shields.io/github/actions/workflow/status/gianlucaguarini/erre.merge/test.yml?style=flat-square
+[ci-url]: https://github.com/gianlucaguarini/erre.merge/actions
 [license-image]: http://img.shields.io/badge/license-MIT-000000.svg?style=flat-square
 [license-url]: LICENSE
 [npm-version-image]: http://img.shields.io/npm/v/erre.merge.svg?style=flat-square

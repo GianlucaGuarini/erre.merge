@@ -2,9 +2,13 @@
   "name": "erre.merge",
   "version": "1.0.1",
   "description": "erre plugin to merge the results multiple streams into one",
-  "main": "erre.merge.js",
-  "jsnext:main": "index.next.js",
-  "module": "index.next.js",
+  "type": "module",
+  "main": "index.js",
+  "module": "index.js",
+  "exports": {
+    "import": "./index.js",
+    "require": "./index.cjs"
+  },
   "scripts": {
     "prepare": "npm run build && npm test",
     "lint": "eslint index.next.js test.js rollup.config.js",
@@ -13,6 +17,8 @@
     "test": "npm run lint && mocha test.js"
   },
   "files": [
+    "index.js",
+    "index.cjs",
     "index.next.js"
   ],
   "repository": {
@@ -23,23 +29,23 @@
     "es6",
     "es2015"
   ],
-  "author": "Gianluca Guarini <gianluca.guarini@gmail.com> (http://gianlucaguarini.com)",
+  "author": "Gianluca Guarini <gianluca.guarini@gmail.com> (https://gianlucaguarini.com)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/GianlucaGuarini/erre.merge/issues"
   },
   "homepage": "https://github.com/GianlucaGuarini/erre.merge#readme",
   "peerDependencies": {
-    "erre": "^2.0.0"
+    "erre": "^2.0.0 || ^3.0.0"
   },
   "devDependencies": {
     "@gianlucaguarini/eslint-config": "^2.0.0",
-    "eslint": "^4.19.1",
-    "mocha": "^5.2.0",
-    "rollup": "^0.59.4",
-    "rollup-plugin-node-resolve": "^3.3.0"
+    "@rollup/plugin-node-resolve": "^15.2.1",
+    "eslint": "^8.50.0",
+    "mocha": "^10.2.0",
+    "rollup": "^3.29.2"
   },
   "dependencies": {
-    "curri": "^1.0.0"
+    "curri": "^2.0.3"
   }
 }

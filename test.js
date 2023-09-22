@@ -1,6 +1,6 @@
-const assert = require('assert')
-const erre = require('erre')
-const merge = require('./')
+import assert from 'node:assert'
+import erre from 'erre'
+import merge from './index.next.js'
 
 erre.install('merge', merge)
 
